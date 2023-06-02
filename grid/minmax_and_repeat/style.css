@@ -1,0 +1,21 @@
+/* style.css */
+
+.grid {
+    display: grid;
+    border: 2px blue solid;
+    height: 500px;
+
+    /* Repeat three equal rows. */
+    grid-template-rows: repeat(3, 1fr);
+
+    /* Using minmax(), the second column is
+    between 50 pixels and 300 pixels. */
+    grid-template-columns: 3fr minmax(50px, 300px) 1fr;
+}
+
+.box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+}

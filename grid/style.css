@@ -1,0 +1,42 @@
+/* style.css */
+
+.grid {
+    border: 2px blue solid;
+    height: 500px;
+    width: 500px;
+    display: grid;
+
+    /* Four columns — the first two each taking up 25%
+    of the total width, the third column taking up two-thirds
+    of the remaining space, and the last column taking up
+    the last third of the remaining space. */
+    grid-template-columns: 25% 25% 2fr 1fr;
+
+    /* Two rows, both 200px in size. */
+    grid-template-rows: 200px 200px;
+
+    /* 10px gap in between the rows. */
+    row-gap: 10px;
+
+    /* 15px gap in between the columns. */
+    column-gap: 15px;
+}
+
+.box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px dodgerblue solid;
+}
+
+.a {
+    /* Using the span keyword, make the box with
+    class a take up the first two columns of the grid. */
+    grid-column-start: 1;
+    grid-column-end: span 2;
+
+    /* Without using span, make the box with class
+    a take up the first two rows of the grid. */
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
