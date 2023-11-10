@@ -8,4 +8,4 @@ Two colors are contrasting when they are from different segments of the color wh
 
 Design Reflecting Structure
 
-An important consideration when applying CSS to a page is the relationship that the CSS stylesheet has with the HTML document’s underlying structure.
+An important consideration when applying CSS to a page is the relationship that the CSS stylesheet has with the HTML document’s underlying structure. The order and structure of the HTML elements and CSS properties should match the order and structure of the Document Object Model.
