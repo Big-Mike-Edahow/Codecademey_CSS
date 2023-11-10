@@ -9,3 +9,17 @@ Two colors are contrasting when they are from different segments of the color wh
 Design Reflecting Structure
 
 An important consideration when applying CSS to a page is the relationship that the CSS stylesheet has with the HTML document’s underlying structure. The order and structure of the HTML elements and CSS properties should match the order and structure of the Document Object Model.
+
+Text should be at least 18px in size, and paragraphs should have a line-height of at least 1.5 to increase the readability of content.
+
+Color contrast between elements should be at least 4.5:1 for standard font sizes.
+
+Interactive elements should have a visual appearance denoting interactivity, such as underlined links and pointer cursor.
+
+Abbreviated content should be given additional content via the <abbr> element.
+
+When hiding elements from users, use visibility: hidden; or display: none; to hide content from both assisted and non-assisted users.
+
+Visual display should reflect the structure of the presented elements within the HTML to provide navigational coherence for assisted and non-assisted users.
+
+Design pages for consumption in different mediums such as print.
