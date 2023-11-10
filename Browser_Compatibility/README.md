@@ -10,7 +10,9 @@ Polyfills provide a way to support newer web features on older browsers.
 
 Understand how CSS feature queries work and when to use them.
 
-Understand the syntax of using the @supports at-rule and using logical operators such as not, and, and or.
+Understand the syntax of using the @supports at-rule and using logical operators such as not, and, and or. @supports (aspect-ratio : 4/3) {
+  // Any code here will run if the aspect-ratio property is supported
+}
 
 Understand the differences in the two approaches of addressing browser compatibility: graceful degradation and progressive enhancement.
 
