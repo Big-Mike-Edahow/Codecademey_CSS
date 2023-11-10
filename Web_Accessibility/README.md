@@ -16,7 +16,7 @@ Color contrast between elements should be at least 4.5:1 for standard font sizes
 
 Interactive elements should have a visual appearance denoting interactivity, such as underlined links and pointer cursor.
 
-Abbreviated content should be given additional content via the \<<abbr>\> element.
+Abbreviated content should be given additional content via the \<abbr\> element.
 
 When hiding elements from users, use visibility: hidden; or display: none; to hide content from both assisted and non-assisted users.
 
