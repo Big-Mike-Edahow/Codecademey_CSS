@@ -15,3 +15,14 @@ Which emotions each color evokes and communicates.
 How contrast plays a vital role.
 
 What color combinations you should avoid.
+
+HSLA is the most semantic system of setting colors with CSS.
+
+The “pure” color is set with the Hue. This is expressed as the angle in degrees around the color wheel.
+
+Saturation refers to the intensity or purity of that hue. Colors with full saturation (100%) are the color itself, colors with no saturation (0%) are completely grayscale.
+Lightness refers to the lightness of the color. 0% is black, 100% is white.
+
+A, or alpha, refers to the opacity. 0% is fully transparent, 100% is fully opaque.
+
+Using values that have semantic meaning gives the designer more direct control over the color scheme, and more direct ability to manage contrast and create related color schemes.
