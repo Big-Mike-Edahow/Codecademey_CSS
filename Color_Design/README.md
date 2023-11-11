@@ -1,6 +1,4 @@
-COLOR THEORY
-
-Introduction
+<b>Color Design</b>
 
 Color is essential to the overall aesthetics and usability of your websites.
 
