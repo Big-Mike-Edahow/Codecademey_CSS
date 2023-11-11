@@ -26,3 +26,23 @@ Lightness refers to the lightness of the color. 0% is black, 100% is white.
 A, or alpha, refers to the opacity. 0% is fully transparent, 100% is fully opaque.
 
 Using values that have semantic meaning gives the designer more direct control over the color scheme, and more direct ability to manage contrast and create related color schemes.
+
+Each color has a specific meaning (both positive and negative), which can evoke emotions from a user. For instance, here’s a list of words often associated with colors:
+
+Red: Passionate, energetic, angry.
+
+Orange: Optimistic, playful, fun.
+
+Yellow: Welcoming, intellectual, impatient.
+
+Green: Prosperous, balanced, growing.
+
+Blue: Peaceful, loyal, cold.
+
+Purple: Imaginative, royal, spiritual.
+
+Gray: Unemotional, compromising.
+
+White: Innocent, pure.
+
+Black: Luxurious, powerful.
