@@ -1,2 +1,2 @@
 # Codecademey_CSS
-Files from the intro to CSS course from Codecademey
+Source code from my Intro to CSS course from Codecademy.
